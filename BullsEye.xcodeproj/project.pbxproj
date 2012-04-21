@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2B3AB5154284C700CC2F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2B3AB4154284C700CC2F76 /* UIKit.framework */; };
+		CD2B3AB7154284C700CC2F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2B3AB6154284C700CC2F76 /* Foundation.framework */; };
+		CD2B3AB9154284C700CC2F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2B3AB8154284C700CC2F76 /* CoreGraphics.framework */; };
+		CD2B3ABF154284C700CC2F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD2B3ABD154284C700CC2F76 /* InfoPlist.strings */; };
+		CD2B3AC1154284C700CC2F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3AC0154284C700CC2F76 /* main.m */; };
+		CD2B3AC5154284C700CC2F76 /* BEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3AC4154284C700CC2F76 /* BEAppDelegate.m */; };
+		CD2B3AC8154284C700CC2F76 /* BEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3AC7154284C700CC2F76 /* BEViewController.m */; };
+		CD2B3ACB154284C700CC2F76 /* BEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2B3AC9154284C700CC2F76 /* BEViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD2B3AB0154284C700CC2F76 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2B3AB4154284C700CC2F76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD2B3AB6154284C700CC2F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD2B3AB8154284C700CC2F76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD2B3ABC154284C700CC2F76 /* BullsEye-Info.plist */ = {isa = PBXFileReference; path = "BullsEye-Info.plist"; sourceTree = "<group>"; };
+		CD2B3ABE154284C700CC2F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD2B3AC0154284C700CC2F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD2B3AC2154284C700CC2F76 /* BullsEye-Prefix.pch */ = {isa = PBXFileReference; path = "BullsEye-Prefix.pch"; sourceTree = "<group>"; };
+		CD2B3AC3154284C700CC2F76 /* BEAppDelegate.h */ = {isa = PBXFileReference; path = BEAppDelegate.h; sourceTree = "<group>"; };
+		CD2B3AC4154284C700CC2F76 /* BEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEAppDelegate.m; sourceTree = "<group>"; };
+		CD2B3AC6154284C700CC2F76 /* BEViewController.h */ = {isa = PBXFileReference; path = BEViewController.h; sourceTree = "<group>"; };
+		CD2B3AC7154284C700CC2F76 /* BEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEViewController.m; sourceTree = "<group>"; };
+		CD2B3ACA154284C700CC2F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BEViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2B3AAD154284C700CC2F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2B3AB5154284C700CC2F76 /* UIKit.framework in Frameworks */,
+				CD2B3AB7154284C700CC2F76 /* Foundation.framework in Frameworks */,
+				CD2B3AB9154284C700CC2F76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2B3AA5154284C700CC2F76 = {
+			isa = PBXGroup;
+			children = (
+				CD2B3ABA154284C700CC2F76 /* BullsEye */,
+				CD2B3AB3154284C700CC2F76 /* Frameworks */,
+				CD2B3AB1154284C700CC2F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2B3AB1154284C700CC2F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3AB0154284C700CC2F76 /* BullsEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2B3AB3154284C700CC2F76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3AB4154284C700CC2F76 /* UIKit.framework */,
+				CD2B3AB6154284C700CC2F76 /* Foundation.framework */,
+				CD2B3AB8154284C700CC2F76 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD2B3ABA154284C700CC2F76 /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3AC3154284C700CC2F76 /* BEAppDelegate.h */,
+				CD2B3AC4154284C700CC2F76 /* BEAppDelegate.m */,
+				CD2B3AC6154284C700CC2F76 /* BEViewController.h */,
+				CD2B3AC7154284C700CC2F76 /* BEViewController.m */,
+				CD2B3AC9154284C700CC2F76 /* BEViewController.xib */,
+				CD2B3ABB154284C700CC2F76 /* Supporting Files */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		CD2B3ABB154284C700CC2F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3ABC154284C700CC2F76 /* BullsEye-Info.plist */,
+				CD2B3ABD154284C700CC2F76 /* InfoPlist.strings */,
+				CD2B3AC0154284C700CC2F76 /* main.m */,
+				CD2B3AC2154284C700CC2F76 /* BullsEye-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2B3AAF154284C700CC2F76 /* BullsEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2B3ACE154284C700CC2F76 /* Build configuration list for PBXNativeTarget "BullsEye" */;
+			buildPhases = (
+				CD2B3AAC154284C700CC2F76 /* Sources */,
+				CD2B3AAD154284C700CC2F76 /* Frameworks */,
+				CD2B3AAE154284C700CC2F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BullsEye;
+			productName = BullsEye;
+			productReference = CD2B3AB0154284C700CC2F76 /* BullsEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2B3AA7154284C700CC2F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BE;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CD2B3AAA154284C700CC2F76 /* Build configuration list for PBXProject "BullsEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD2B3AA5154284C700CC2F76;
+			productRefGroup = CD2B3AB1154284C700CC2F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2B3AAF154284C700CC2F76 /* BullsEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2B3AAE154284C700CC2F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2B3ABF154284C700CC2F76 /* InfoPlist.strings in Resources */,
+				CD2B3ACB154284C700CC2F76 /* BEViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2B3AAC154284C700CC2F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2B3AC1154284C700CC2F76 /* main.m in Sources */,
+				CD2B3AC5154284C700CC2F76 /* BEAppDelegate.m in Sources */,
+				CD2B3AC8154284C700CC2F76 /* BEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD2B3ABD154284C700CC2F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2B3ABE154284C700CC2F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD2B3AC9154284C700CC2F76 /* BEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2B3ACA154284C700CC2F76 /* en */,
+			);
+			name = BEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2B3ACC154284C700CC2F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD2B3ACD154284C700CC2F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2B3ACF154284C700CC2F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BullsEye/BullsEye-Prefix.pch";
+				INFOPLIST_FILE = "BullsEye/BullsEye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD2B3AD0154284C700CC2F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BullsEye/BullsEye-Prefix.pch";
+				INFOPLIST_FILE = "BullsEye/BullsEye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2B3AAA154284C700CC2F76 /* Build configuration list for PBXProject "BullsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2B3ACC154284C700CC2F76 /* Debug */,
+				CD2B3ACD154284C700CC2F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2B3ACE154284C700CC2F76 /* Build configuration list for PBXNativeTarget "BullsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2B3ACF154284C700CC2F76 /* Debug */,
+				CD2B3AD0154284C700CC2F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2B3AA7154284C700CC2F76 /* Project object */;
+}
